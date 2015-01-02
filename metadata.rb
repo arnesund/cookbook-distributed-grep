@@ -1,7 +1,13 @@
 name             'distributed-grep'
-maintainer       'YOUR_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Arne Sund'
+maintainer_email 'git@arnesund.no'
 license          'All rights reserved'
-description      'Installs/Configures distributed-grep'
-long_description 'Installs/Configures distributed-grep'
+description      'Install and set up Distributed-Grep web app'
+long_description 'Installs and configures Distributed-Grep web app and job launcher necessary for the Web UI to work as intended.'
 version          '0.1.0'
+
+depends 'apache2'
+depends 'sqlite'
+depends 'php'
+depends 'python'
+

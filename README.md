@@ -3,28 +3,17 @@ cookbook-distributed-grep
 
 Chef cookbook for the Distributed Grep web app. Sets up the web app and job launcher necessary for the Web UI to work as intended.
 
+**NOTE:** The cookbook is not ready for use yet.
+
 Supported Platforms
 -------------------
 
-TODO: List your supported platforms.
+This cookbook has been tested on Ubuntu 14.04.
 
 Attributes
 ----------
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['distributed-grep']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+None, yet.
 
 Usage
 -----
@@ -44,5 +33,5 @@ License and Authors
 -------------------
 This cookbook is licensed under GPL version 2.
 
-Author: Arne Sund (git@arnesund.no)
+Author: Arne Sund
 

@@ -1,12 +1,15 @@
-# distributed-grep-cookbook
+cookbook-distributed-grep
+=========================
 
-TODO: Enter the cookbook description here.
+Chef cookbook for the Distributed Grep web app. Sets up the web app and job launcher necessary for the Web UI to work as intended.
 
-## Supported Platforms
+Supported Platforms
+-------------------
 
 TODO: List your supported platforms.
 
-## Attributes
+Attributes
+----------
 
 <table>
   <tr>
@@ -23,11 +26,11 @@ TODO: List your supported platforms.
   </tr>
 </table>
 
-## Usage
+Usage
+-----
 
-### distributed-grep::default
-
-Include `distributed-grep` in your node's `run_list`:
+#### distributed-grep::default
+Just include `distributed-grep` in your node's `run_list`:
 
 ```json
 {
@@ -37,6 +40,9 @@ Include `distributed-grep` in your node's `run_list`:
 }
 ```
 
-## License and Authors
+License and Authors
+-------------------
+This cookbook is licensed under GPL version 2.
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author: Arne Sund (git@arnesund.no)
+
